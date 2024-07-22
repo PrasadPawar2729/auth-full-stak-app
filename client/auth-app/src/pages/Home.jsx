@@ -14,7 +14,7 @@ function Home() {
 
     const fetchData = async () => {
         try {
-            const response = await fetch('http://localhost:1991/product', {
+            const response = await fetch('https://auth-full-stak-app.vercel.app/product', {
                 headers: {
                     Authorization: `Bearer ${localStorage.getItem('token')}`
                 }
