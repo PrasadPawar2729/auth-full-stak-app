@@ -34,7 +34,7 @@ const handleloginUp=async(e)=>{
    }
 
   try{
-    const url ="https://auth-full-stak-app.vercel.app/user/login"
+    const url ="https://auth-full-stak-app.onrender.com/user/login"
 
     const response = await fetch(url,{
 
